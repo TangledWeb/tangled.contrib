@@ -26,3 +26,5 @@ command was run::
             contrib/
                 sqlalchemy/
                     __init__.py
+
+`Documentation <http://tangledframework.org/docs/tangled.contrib/>`_
