@@ -15,8 +15,9 @@ setup(
         ),
     },
     entry_points="""
-    [tangled.scripts]
-    contrib = tangled.contrib.scripts:Contrib
+    [tangled.scaffolds]
+    contrib = tangled.contrib.scaffolds:default
+    contrib-core = tangled.contrib.scaffolds:core
 
     """,
     classifiers=(

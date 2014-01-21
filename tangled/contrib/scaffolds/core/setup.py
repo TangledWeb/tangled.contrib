@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='${qualified_package}',
+    name='${package_name}',
     version='0.1.dev0',
-    description='Tangled ${package} integration',
+    description='Tangled ${package} integration (core)',
     packages=find_packages(),
     install_requires=(
         'tangled>=${version_tangled}',
@@ -16,7 +16,7 @@ setup(
     },
     entry_points="""
     [tangled.scripts]
-    ${package} = ${qualified_package}.command:Command
+    ${package} = ${package_name}.command:Command
 
     """,
     classifiers=(

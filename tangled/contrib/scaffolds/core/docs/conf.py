@@ -4,7 +4,7 @@ import pkg_resources
 # -- General configuration ------------------------------------------------
 current_year = datetime.datetime.today().year
 
-project = '${qualified_package}'
+project = '${package_name}'
 author = '${author}'
 copyright = '${year}-{} {}'.format(current_year, author)
 

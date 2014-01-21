@@ -1,7 +1,7 @@
-${qualified_package}
+${package_name}
 ====================
 
-${qualified_package} is...
+${package_name} is...
 
 Contents:
 
