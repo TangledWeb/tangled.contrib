@@ -9,14 +9,18 @@ setup(
     url='http://tangledframework.org/',
     author='Wyatt Baldwin',
     author_email='self@wyattbaldwin.com',
-    packages=find_packages(),
-    install_requires=(
+    packages=[
+        'tangled.contrib',
+        'tangled.contrib.scaffolds',
+        'tangled.contrib.tests',
+    ],
+    install_requires=[
         'tangled>=0.1.dev0',
-    ),
+    ],
     extras_require={
-        'dev': (
+        'dev': [
             'tangled[dev]',
-        ),
+        ],
     },
     entry_points="""
     [tangled.scaffolds]
@@ -24,10 +28,10 @@ setup(
     contrib-core = tangled.contrib.scaffolds:core
 
     """,
-    classifiers=(
+    classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-    ),
+    ],
 )
