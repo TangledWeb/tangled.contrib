@@ -1,6 +1,9 @@
 Third Party Tangled Extensions
 ==============================
 
+.. image:: https://travis-ci.org/TangledWeb/tangled.contrib.png?branch=master
+   :target: https://travis-ci.org/TangledWeb/tangled.contrib
+
 ``tangled.contrib`` is a namespace package for third party Tangled extensions.
 The layout for such an extension looks like this::
 
