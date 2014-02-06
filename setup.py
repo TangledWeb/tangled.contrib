@@ -5,6 +5,10 @@ setup(
     name='tangled.contrib',
     version='0.1.dev0',
     description='Tangled namespace for contributed packages',
+    long_description=open('README.rst').read(),
+    url='http://tangledframework.org/',
+    author='Wyatt Baldwin',
+    author_email='self@wyattbaldwin.com',
     packages=find_packages(),
     install_requires=(
         'tangled>=0.1.dev0',
