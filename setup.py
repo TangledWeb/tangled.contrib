@@ -15,6 +15,7 @@ setup(
         'tangled.contrib.scaffolds',
         'tangled.contrib.tests',
     ],
+    include_package_data=True,
     install_requires=[
         'tangled>=0.1.dev0',
     ],
