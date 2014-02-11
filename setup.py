@@ -7,7 +7,7 @@ setup(
     description='Tangled namespace for contributed packages',
     long_description=open('README.rst').read(),
     url='http://tangledframework.org/',
-    download_url='https://github.com/TangledWeb/tangled.contrib',
+    download_url='https://github.com/TangledWeb/tangled.contrib/tags',
     author='Wyatt Baldwin',
     author_email='self@wyattbaldwin.com',
     packages=[
