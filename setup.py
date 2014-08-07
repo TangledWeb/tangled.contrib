@@ -18,11 +18,11 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'tangled>=0.1a5',
+        'tangled>=0.1a8',
     ],
     extras_require={
         'dev': [
-            'tangled[dev]>=0.1a5',
+            'tangled[dev]>=0.1a8',
         ],
     },
     entry_points="""
